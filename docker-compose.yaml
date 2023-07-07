@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  dns_sandbox:
+    build: .
+    container_name: dns-sandbox
+    restart: unless-stopped
+    ports:
+      - 3001:3000
