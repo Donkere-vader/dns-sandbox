@@ -1,0 +1,7 @@
+@mixin floating-card {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: $rock-dark;
+  border: 1px solid $rock-lighter;
+  box-shadow: 0px 0px 20px rgba($snow, 0.03);
+}
